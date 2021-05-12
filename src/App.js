@@ -1,12 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Layout from './layouts/Layout';
 
 function App() {
   return (
-    <div className="App">
-      <div className="container">
-        <button className="btn btn-primary">Hola mundo</button>
-      </div>
-    </div>
+    <Layout />
   );
 }
 
