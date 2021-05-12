@@ -7,7 +7,7 @@ function Layout(props) {
             <div>Parte para numero de telefono, y plugins para enviar a fb u otra red social</div>
             <Header />
             <main>
-                Aqui iran los containers...
+                {props.children}
             </main>
             <footer>
                 Footer
