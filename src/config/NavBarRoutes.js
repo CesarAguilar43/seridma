@@ -1,22 +1,27 @@
 export const rutas = [
     {
-        path: '/home',
+        path: '/',
         title: 'Inicio',
-        icon: '',
+        icon: '1',
     },
     {
         path: '/about',
         title: 'Acerca',
-        icon: '',
+        icon: '2',
     },
     {
         path: '/benefits',
         title: 'Beneficios',
-        icon: '',
+        icon: '3',
     },
     {
         path: '/contact',
         title: 'Contacto',
-        icon: '',
+        icon: '4',
+    },
+    {
+        path: '/services',
+        title: 'Servicios',
+        icon: '5',
     }
 ];

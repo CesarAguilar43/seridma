@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { rutas } from '../../config/routes';
+import { rutas } from '../../config/NavBarRoutes';
 
 const Header = () => {
     return (
@@ -8,10 +8,10 @@ const Header = () => {
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container-fluid">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                        {rutas.map(ruta => {
+                        {rutas.map((ruta, i) => {
                             return (
-                                <li className="nav-item">
-                                    <NavLink to={ruta.path}>{ruta.title}</NavLink>
+                                <li key={i} className="nav-item">
+                                    <NavLink exact to={ruta.path}>{ruta.title}</NavLink>
                                 </li>
                             );
                         })}

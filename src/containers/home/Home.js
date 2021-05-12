@@ -1,12 +1,13 @@
 import React from 'react';
+import Layout from '../../layouts/Layout';
 
-function Home(){
-    return(
-        <div>
-            <div className="jumbotron">
-                Colocar imagen principal
+function Home() {
+    return (
+        <Layout>
+            <div>
+                <p>Esto sera el home de la pagina</p>
             </div>
-        </div>
+        </Layout>
     );
 }
 
