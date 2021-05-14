@@ -1,23 +1,24 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { rutas } from '../../config/NavBarRoutes';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 
 const Header = () => {
     return (
         <header>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <div className="container-fluid">
-                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <Container fluid>
+                <Navbar bg="light" variant="light" expand="lg">
+                    <Nav className="mx-auto">
                         {rutas.map((ruta, i) => {
                             return (
-                                <li key={i} className="nav-item">
-                                    <NavLink exact to={ruta.path}>{ruta.title}</NavLink>
-                                </li>
+                                <Nav.Link>
+                                    <NavLink key={i} exact to={ruta.path}>{ruta.title}</NavLink>
+                                </Nav.Link>
                             );
                         })}
-                    </ul>
-                </div>
-            </nav>
+                    </Nav>
+                </Navbar>
+            </Container>
         </header>
     );
 }
