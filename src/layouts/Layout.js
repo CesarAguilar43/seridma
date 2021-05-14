@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import Header from '../components/header/Header';
+import Footer from '../components/footer/Footer';
 
 function Layout(props) {
     return (
@@ -8,10 +9,8 @@ function Layout(props) {
             <Header />
             <main>
                 {props.children}
-            </main>
-            <footer>
-                Footer
-            </footer>
+            </main>     
+            <Footer />
             <div>Colocar cosas extra como copyright, el numero de telefono</div>
         </Fragment>
     );
