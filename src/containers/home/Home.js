@@ -1,12 +1,11 @@
 import React from 'react';
 import Layout from '../../layouts/Layout';
+import Carousel from '../../components/carousel/Carousel';
 
 function Home() {
     return (
         <Layout>
-            <div>
-                <p>Esto sera el home de la pagina</p>
-            </div>
+            <Carousel />
         </Layout>
     );
 }

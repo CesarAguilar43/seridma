@@ -15,13 +15,13 @@ export const rutas = [
         icon: '3',
     },
     {
-        path: '/contact',
-        title: 'Contacto',
+        path: '/services',
+        title: 'Servicios',
         icon: '4',
     },
     {
-        path: '/services',
-        title: 'Servicios',
+        path: '/contact',
+        title: 'Contacto',
         icon: '5',
-    }
+    },
 ];
