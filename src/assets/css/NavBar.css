@@ -1,0 +1,20 @@
+.header {
+    background-color: #ffffff;
+    font-family: 'News Cycle', sans-serif;
+    font-size: 40px;
+  }
+  
+  .header a {
+    color: black;
+    text-decoration: none;
+    padding: 0.80rem;
+    margin: 0 1rem;
+  }
+  
+  .header a:hover,
+  .header a.active {
+    color: #f3270c;
+    padding-bottom: 0.25rem;
+    border-bottom: 4px solid;
+    transition-duration: 115ms;
+  }
