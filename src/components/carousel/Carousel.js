@@ -29,8 +29,8 @@ const CarouselHome = () => {
                     }}
                 />
                 <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3>¿Quienes somos?</h3>
+                    <p>Somos una empresa 100% mexicana dedicada a brindar servicios integrales </p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={3000} style={{
