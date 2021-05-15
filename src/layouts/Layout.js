@@ -4,7 +4,7 @@ import Header from '../components/header/Header';
 function Layout(props) {
     return (
         <Fragment>
-            <div style={{backgroundColor: '#595959'}}>Parte para numero de telefono, y plugins para enviar a fb u otra red social</div>
+            <div style={{backgroundColor: '#595959', color: '#ffffff'}}>Parte para numero de telefono, y plugins para enviar a fb u otra red social</div>
             <Header />
             <main>
                 {props.children}
