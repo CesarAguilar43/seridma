@@ -11,7 +11,6 @@ function Layout(props) {
                 {props.children}
             </main>     
             <Footer />
-            <div>Colocar cosas extra como copyright, el numero de telefono</div>
         </Fragment>
     );
 }
