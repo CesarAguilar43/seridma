@@ -3,20 +3,20 @@ import { Link, NavLink } from 'react-router-dom';
 import { rutas } from '../../config/NavBarRoutes';
 import { Nav, Navbar } from 'react-bootstrap';
 import '../../assets/css/NavBar.css';
-import logo from '../../assets/img/LOGO_SERIDMA_HD.png';
+import logo from '../../assets/img/LOGO_SERIDMA_HD_SIN_FONDO.png';
 
 const Header = () => {
     return (
         <header className="header">
-            <Navbar expand="lg">
+            <Navbar expand="xl">
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Navbar.Brand className="mr-auto">
                         <Link exact={true} to="/">
                             <img
                                 src={logo}
-                                width="250"
-                                height="150"
+                                width="100px"
+                                height="50px"
                                 className="d-inline-block align-top"
                                 alt="Seridma"
                             />
