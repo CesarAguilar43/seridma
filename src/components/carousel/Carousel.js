@@ -7,7 +7,7 @@ import '../../assets/css/Carousel.css';
 
 const CarouselHome = () => {
     return (
-        <Carousel fade>
+        <Carousel className="carousel-full">
             <Carousel.Item interval={3000} className="carousel-item">
                 <img
                     className="d-block w-100 carousel-img"

@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../../layouts/Layout';
 import Carousel from '../../components/carousel/Carousel';
+import LinksBrands from '../../components/links-brands/Links-Brands';
 import { Container, Row, Col, Jumbotron, Card } from 'react-bootstrap';
 import '../../assets/css/Home.css';
 import seridma01 from '../../assets/img/seridma01.jpeg';
@@ -12,6 +13,9 @@ function Home() {
         <Layout>
             <Carousel />
             <Container fluid className="container-wrapper">
+                <Row xs={12} lg={12}>
+                    <LinksBrands />
+                </Row>
                 <Row xs={12} lg={12}>
                     <Col xs={12} lg={12}>
                         <Jumbotron fluid className="title">

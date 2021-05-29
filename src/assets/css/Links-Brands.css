@@ -1,0 +1,57 @@
+.card-container{
+background-color: #f7f7f7;
+}
+
+.span-img{
+    width: auto;
+    height: auto;
+    margin-left: 28%;
+    margin-right: 30%;
+    align-items: center;
+}
+
+.span-img:hover{
+    animation: movimiento 1s linear infinite;
+}
+
+.img-brand{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card-container-full{
+    margin-top: 20px;
+} 
+
+.card-title{
+    text-align-last: center;
+    font-size: 4vh;
+}
+
+.card-title:hover{
+    color: #f3270c;
+    transition-duration: 600ms;
+}
+
+.card-lnk a{
+    color: black;
+    text-decoration: none;
+    padding: 0.80rem;
+    margin: 0 1rem;
+}
+
+.card-lnk a:hover{
+    transition-duration: 134ms;
+}
+
+@keyframes movimiento {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
