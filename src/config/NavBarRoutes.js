@@ -15,11 +15,6 @@ export const rutas = [
         icon: '3',
     },
     {
-        path: '/services',
-        title: 'Servicios',
-        icon: '4',
-    },
-    {
         path: '/contact',
         title: 'Contacto',
         icon: '5',

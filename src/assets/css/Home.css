@@ -1,4 +1,30 @@
-.paragraph{
+.paragraph, .title{
     font-family: 'News Cycle', sans-serif;
+}
+
+.paragraph{
     font-size: 34px;
+    text-justify: auto;
+}
+
+.title{
+    font-size: 40px;
+    text-align: center;
+    background-color: #f3270c;
+    color: #fff;
+    margin: 25px;
+}
+
+.cards{
+    text-justify: auto;
+    margin-top: 20px;
+}
+
+.cardsImage{
+    width: auto;
+    height: 450px;
+}
+
+.container-wrapper{
+   background: #f2f2f2;
 }

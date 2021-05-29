@@ -1,22 +1,22 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { rutas } from '../../config/NavBarRoutes';
-import { Nav, Navbar } from 'react-bootstrap';
+import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import '../../assets/css/NavBar.css';
-import logo from '../../assets/img/LOGO_SERIDMA_HD.png';
+import logo from '../../assets/img/LOGO_SERIDMA_HD_SIN_FONDO.png';
 
 const Header = () => {
     return (
         <header className="header">
-            <Navbar expand="lg">
+            <Navbar expand="xl">
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Navbar.Brand className="mr-auto">
                         <Link exact={true} to="/">
                             <img
                                 src={logo}
-                                width="250"
-                                height="150"
+                                width="100px"
+                                height="50px"
                                 className="d-inline-block align-top"
                                 alt="Seridma"
                             />
@@ -28,6 +28,14 @@ const Header = () => {
                                 <NavLink key={i} exact={true} to={ruta.path} activeClassName="active">{ruta.title}</NavLink>
                             );
                         })}
+                        <NavDropdown title="Servicios" id="collasible-nav-dropdown">
+                            <Link>Servicio-1</Link>
+                            <NavDropdown.Divider />
+                            <Link>Servicio-2</Link>
+                            <NavDropdown.Divider />
+                            <Link>Servicio-3</Link>
+                            <NavDropdown.Divider />
+                        </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
