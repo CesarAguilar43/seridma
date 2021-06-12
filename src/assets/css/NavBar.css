@@ -22,3 +22,10 @@
     border-bottom: 4px solid;
     transition-duration: 115ms;
   }
+.layer{
+  width: 100%;
+}
+  .logoImg{
+    width: 150px;
+    height: 100px;
+  }

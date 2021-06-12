@@ -15,7 +15,7 @@ const CarouselHome = () => {
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h1>¿QUIENES SOMOS NOSOTROS?</h1>
+                    <h1>¿QUIENES SOMOS?</h1>
                     <h3>
                     Somos una empresa 100% mexicana, dedicada a brindar servicios 
                     integrales de mantenimiento, distinguidos por nuestra calidad 
