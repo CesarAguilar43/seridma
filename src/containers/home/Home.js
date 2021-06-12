@@ -7,6 +7,7 @@ import '../../assets/css/Home.css';
 import seridma01 from '../../assets/img/seridma01.jpeg';
 import seridma02 from '../../assets/img/seridma02.jpeg';
 import seridma03 from '../../assets/img/seridma03.jpeg';
+import HoverImg from '../../components/hover-images/Hover-Images';
 
 function Home() {
     return (
@@ -36,34 +37,13 @@ function Home() {
                 </Row>
                 <Row>
                     <Col xs={12} lg={4}>
-                        <Card className="cards">
-                            <Card.Img variant="top" src={seridma01} className="cardsImage" />
-                            <Card.Body>
-                                <Card.Text>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum tortor nec posuere elementum. Curabitur pellentesque feugiat euismod. Suspendisse gravida a quam non ultricies.
-                            </Card.Text>
-                            </Card.Body>
-                        </Card>
+                        <HoverImg ruteImg={seridma01} altImg="Imagen1" titleImg="Titulo 1" descImg="loremp ipsum" />
                     </Col>
                     <Col xs={12} lg={4}>
-                        <Card className="cards">
-                            <Card.Img variant="top" src={seridma03} className="cardsImage" />
-                            <Card.Body>
-                                <Card.Text>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum tortor nec posuere elementum. Curabitur pellentesque feugiat euismod. Suspendisse gravida a quam non ultricies.
-                            </Card.Text>
-                            </Card.Body>
-                        </Card>
+                        <HoverImg ruteImg={seridma02} altImg="Imagen1" titleImg="Titulo 2" descImg="loremp ipsum" />
                     </Col>
                     <Col xs={12} lg={4}>
-                        <Card className="cards">
-                            <Card.Img variant="top" src={seridma02} className="cardsImage" />
-                            <Card.Body>
-                                <Card.Text>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum tortor nec posuere elementum. Curabitur pellentesque feugiat euismod. Suspendisse gravida a quam non ultricies.
-                            </Card.Text>
-                            </Card.Body>
-                        </Card>
+                        <HoverImg ruteImg={seridma03} altImg="Imagen1" titleImg="Titulo 3" descImg="loremp ipsum" />
                     </Col>
                 </Row>
             </Container>
