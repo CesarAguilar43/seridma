@@ -17,10 +17,9 @@ const Footer = () => {
                     <p>  Correo : <br/>
                         <a href="seridma.servicios@gmail.com">seridma.servicios@gmail.com</a></p>
                     </Col>
-                    <Col xs lg="3" className="redes-container"><ul>
+                    <Col xs lg="2" className="redes-container"><ul>
                         <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCbS4aaMATiMPm4Rhvimj1BA" class="youtube"><i class="fab fa-youtube"></i></a></li>
                         </ul></Col>
                 </Row>
             </Container>
