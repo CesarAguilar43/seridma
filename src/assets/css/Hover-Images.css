@@ -3,12 +3,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 70vh;
 }
 .container-hover-img figure{
     position: relative;
-    height: 350px;
-    width: 350px;
+    height: 500px;
+    width: 500px;
     overflow: hidden;
     border-radius: 6px;
     box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);

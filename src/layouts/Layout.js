@@ -8,9 +8,9 @@ function Layout(props) {
     return (
         <Fragment>
             <div className="container-full">
-                <div style={{ backgroundColor: '#ccc', color: 'black' }}>
+                <div style={{ backgroundColor: '#e9eaed', color: 'black' }}>
                     <label>
-                    <strong>Contáctanos al (833) 153 9414 o vía email <Link>seridma.servicios@gmail.com</Link></strong>
+                    <strong>Contáctanos al (833) 153 9414 o vía email <Link to="/">seridma.servicios@gmail.com</Link></strong>
                     </label></div>
                 <Header />
                 <main>
