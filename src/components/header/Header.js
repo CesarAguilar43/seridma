@@ -15,9 +15,7 @@ const Header = () => {
                         <Link exact={true} to="/">
                             <img
                                 src={logo}
-                                width="100px"
-                                height="50px"
-                                className="d-inline-block align-top"
+                                className="d-inline-block align-top logoImg"
                                 alt="Seridma"
                             />
                         </Link>

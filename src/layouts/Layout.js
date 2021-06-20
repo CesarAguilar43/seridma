@@ -10,7 +10,7 @@ function Layout(props) {
             <div className="container-full">
                 <div style={{ backgroundColor: '#ccc', color: 'black' }}>
                     <label>
-                    <strong>Contáctanos al (833) 153 9414 o vía email <Link>servicios@seridma.com.mx</Link></strong>
+                    <strong>Contáctanos al (833) 153 9414 o vía email <Link>seridma.servicios@gmail.com</Link></strong>
                     </label></div>
                 <Header />
                 <main>
