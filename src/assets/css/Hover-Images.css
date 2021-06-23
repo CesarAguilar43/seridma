@@ -1,16 +1,18 @@
 .container-hover-img{
     width: 100%;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: 60vh;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .container-hover-img figure{
     position: relative;
-    height: 500px;
-    width: 500px;
+    height: 450px;
+    width: 400px;
     overflow: hidden;
-    border-radius: 6px;
     box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
     cursor: pointer;
 }
@@ -54,4 +56,32 @@ margin-bottom: 15px;
     width: 100%;
     max-width: 220px;
     margin: auto;
+}
+
+@media only screen and (max-width: 1480px) {
+
+    .container-hover-img{
+        height: 47vh; 
+    }
+
+    .container-hover-img figure{
+        height: 350px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+
+    .container-hover-img{
+        height: 50vh; 
+    }
+
+    .container-hover-img figure{
+        height: 450px;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

@@ -26,3 +26,15 @@ h1{
  h3 {
    font-family: 'News Cycle', sans-serif;;
 }
+
+@media only screen and (max-width: 625px) {
+
+    .carousel-img{
+        width: 100%;
+        height: 70%;
+    }
+
+    .carousel-item{
+        background: linear-gradient(30deg, #f3270c, 0);
+    }
+}

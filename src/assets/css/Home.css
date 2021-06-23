@@ -30,7 +30,39 @@
    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
 }
 
-.banner{
+.banner-medium, .banner-movil, .banner{
+    display: block;
    margin-top: 15px;
    margin-bottom: 15px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.banner-movil, .banner-medium{
+    display: none;
+}
+
+@media only screen and (max-width: 1198px) {
+
+    .container-wrapper{
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+
+    .banner{
+        display: none;
+    }
+
+    .banner-medium{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .banner-medium{
+        display: none;
+    }
+    .banner-movil{
+        display: block;
+    }
 }
