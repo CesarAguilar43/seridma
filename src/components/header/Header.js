@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { rutas } from '../../config/NavBarRoutes';
-import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Nav, Navbar, NavDropdown, Image } from 'react-bootstrap';
 import '../../assets/css/NavBar.css';
 import logo from '../../assets/img/LOGO_SERIDMA_HD_SIN_FONDO.png';
 
@@ -13,11 +13,7 @@ const Header = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Navbar.Brand className="mr-auto">
                         <Link exact={true} to="/">
-                            <img
-                                src={logo}
-                                className="d-inline-block align-top logoImg"
-                                alt="Seridma"
-                            />
+                            <Image src={logo} className="logoImg" alt="Seridma" />
                         </Link>
                     </Navbar.Brand>
                     <Nav className="mr-auto">
