@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { rutas } from '../../config/NavBarRoutes';
 import { Nav, Navbar, NavDropdown, Image } from 'react-bootstrap';
-import '../../assets/css/NavBar.css';
+import '../../assets/css/Header.css';
 import logo from '../../assets/img/LOGO_SERIDMA_HD_SIN_FONDO.png';
 
 const Header = () => {
