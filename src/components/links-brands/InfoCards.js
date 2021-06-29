@@ -6,38 +6,38 @@ import linksBrands04 from '../../assets/img/links-brands04.jpeg';
 
 const InfoCards = [
     {
-        title: 'Mantenimiento',
+        title: 'Limpieza y Desinfección',
         img: linksBrands01,
         lnk: [
-            <Link to="#">Dummy1</Link>,
-            <Link to="#">Dummy2</Link>,
+            <Link to="#">Limpieza de espacios.</Link>,
+            <Link to="#">Sanitización de espacios.</Link>,
         ]
     },
     {
-        title: 'Seguridad',
+        title: 'Servicios eléctricos',
         img: linksBrands02,
         lnk: [
-            <Link to="#">Dummy1</Link>,
-            <Link to="#">Dummy2</Link>,
-            <Link to="#">Dummy3</Link>,
+            <Link to="#">Mantenimiento preventivo y correctivo de motores eléctricos.</Link>,
+            <Link to="#">Bobinado de motores.</Link>,
+            <Link to="#">Instalación de alumbrado.</Link>,
         ]
     },
     {
-        title: 'Proteccion',
+        title: 'Suministros',
         img: linksBrands03,
         lnk: [
-            <Link to="#">Dummy1</Link>,
-            <Link to="#">Dummy2</Link>,
-            <Link to="#">Dummy3</Link>,
+            <Link to="#">Venta de material eléctrico.</Link>,
+            <Link to="#">Venta de motores.</Link>,
+            <Link to="#">Venta de rodamientos.</Link>,
         ]
     },
     {
-        title: 'Eficiencia',
+        title: 'Valvulas',
         img: linksBrands04,
         lnk: [
-            <Link to="#">Dummy1</Link>,
-            <Link to="#">Dummy2</Link>,
-            <Link to="#">Dummy3</Link>,
+            <Link to="#">Mantenimiento a valvulas.</Link>,
+            <Link to="#">Suministro de valvulas.</Link>,
+            <Link to="#">Reparación de valvulas.</Link>,
         ]
     }
 ]

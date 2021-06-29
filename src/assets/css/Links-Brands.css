@@ -24,7 +24,7 @@ background-color: #f7f7f7;
 } 
 
 .card-title{
-    text-align-last: center;
+    text-align: center;
     font-size: 4vh;
 }
 
@@ -38,6 +38,7 @@ background-color: #f7f7f7;
     text-decoration: none;
     padding: 0.80rem;
     margin: 0 1rem;
+    text-align: center;
 }
 
 .card-lnk a:hover{
