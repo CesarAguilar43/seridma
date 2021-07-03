@@ -1,0 +1,22 @@
+ul {
+    list-style: none;
+}
+.nav1 li a {
+    text-decoration: none;
+    display: block;
+}
+
+.nav1 li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav1 li:hover > ul {
+    display: block;
+    background-color: #f2f2f2;
+  font-family: 'News Cycle', sans-serif;
+  font-size: 20px;
+  border-radius: 15px 15px 0 0;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+}

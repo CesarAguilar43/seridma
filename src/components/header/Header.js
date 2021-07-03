@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 import { rutas } from '../../config/NavBarRoutes';
 import { Nav, Navbar, NavDropdown, Image } from 'react-bootstrap';
 import '../../assets/css/Header.css';
-import logo from '../../assets/img/LOGO_SERIDMA_HD_SIN_FONDO.png';
+import logoHome from '../../assets/img/Logo-home.png';
 
 const Header = () => {
     return (
@@ -13,7 +13,7 @@ const Header = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Navbar.Brand className="mr-auto">
                         <Link exact={true} to="/">
-                            <Image src={logo} className="logoImg" alt="Seridma" />
+                            <Image src={logoHome} className="logoImg" alt="Seridma" />
                         </Link>
                     </Navbar.Brand>
                     <Nav className="mr-auto">
