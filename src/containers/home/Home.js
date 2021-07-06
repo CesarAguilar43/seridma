@@ -45,7 +45,7 @@ function Home() {
                         <HoverImg ruteImg={seridma02} altImg="Imagen1" titleImg="Titulo 2" descImg="loremp ipsum" />
                     </Col>
                     <Col xs={12} lg={4}>
-                        <HoverImg ruteImg={seridma03} altImg="Imagen1" titleImg="Titulo 3" descImg="loremp ipsum" />
+                        <HoverImg ruteImg={seridma03} altImg="Imagen1" titleImg="Titulo 3" descImg="loremp ipsum"/>
                     </Col>
                 </Row>
             </Container>
