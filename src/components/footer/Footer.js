@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../assets/css/Footer.css';
-import logo from '../../assets/img/LOGO_SERIDMA_HD_SIN_FONDO.png';
+import logo from '../../assets/img/imagen.png';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 
 const Footer = () => {
@@ -8,9 +8,8 @@ const Footer = () => {
         <footer>
             <Container fluid>
                 <Row >
-
-                    <Col lg id ="footerP1">
-                        <div class=" informacionContacto">
+                    <Col lg={4} xs={12} id="footerP1">
+                        <div class="informacionContacto">
                             <p>Contacto : <br />
                                 Cel. (833) 153 9414 <br />
                                 Tel. (833) 399 4047
@@ -22,12 +21,12 @@ const Footer = () => {
                         </div>
                     </Col>
 
-                    <Col lg className="redes-container" id="footerP2" ><ul>
+                    <Col lg={4} xs={12} className="redes-container" id="footerP2" ><ul id="redes">
                         <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
                         <li><a href="https://www.youtube.com/channel/UCbS4aaMATiMPm4Rhvimj1BA" class="youtube"><i class="fab fa-youtube"></i></a></li>
                     </ul></Col>
 
-                    <Col lg id="footerP3" ><Image src={logo} id="logoFooter" fluid /></Col>
+                    <Col lg={4} xs={12} id="footerP3"><Image src={logo} id="logoFooter" fluid /></Col>
 
                 </Row>
             </Container>
