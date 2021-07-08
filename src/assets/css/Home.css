@@ -42,6 +42,10 @@
     display: none;
 }
 
+.row-image-hover{
+    padding: 20px 40px;
+}
+
 @media only screen and (max-width: 1198px) {
 
     .container-wrapper{
