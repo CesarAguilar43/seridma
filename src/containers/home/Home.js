@@ -48,14 +48,14 @@ function Home() {
                     <Col xs={12} lg={4}>
                         <HoverImg ruteImg={seridma03} altImg="Imagen1" titleImg="Titulo 3" descImg="loremp ipsum"/>
                     </Col> */}
-                    <Col xs={12} lg={4}>
-                        <HoverImg img={bannerMovil} />
+                    <Col xs={12} lg={4} className="col-image-hover">
+                        <HoverImg img={seridma01} />
                     </Col>
-                    <Col xs={12} lg={4}>
-                        <HoverImg img={bannerMovil} />
+                    <Col xs={12} lg={4} className="col-image-hover">
+                        <HoverImg img={seridma02} />
                     </Col>
-                    <Col xs={12} lg={4}>
-                        <HoverImg img={bannerMovil} />
+                    <Col xs={12} lg={4} className="col-image-hover">
+                        <HoverImg img={seridma03} />
                     </Col>
                 </Row>
             </Container>
