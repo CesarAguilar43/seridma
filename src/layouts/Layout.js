@@ -4,19 +4,24 @@ import NavHeader from '../components/header/NavHeader';
 import Footer from '../components/footer/Footer';
 import '../assets/css/Layout.css';
 import { Link } from 'react-router-dom';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 function Layout(props) {
     return (
         <Fragment>
             <div className="container-full">
                 <div className="contact">
-                        <p>Contáctanos al (833) 153 9414 o vía email <strong><Link to="/">seridma.servicios@gmail.com</Link></strong></p>
+                    <p>Contáctanos al (833) 153 9414 o vía email <strong><Link to="/">seridma.servicios@gmail.com</Link></strong></p>
                 </div>
-                 <Header /> 
+                <Header />
                 {/* <NavHeader /> */}
                 <main>
                     {props.children}
                 </main>
+                <MessengerCustomerChat
+                    pageId="106964274592662"
+                    appId="514524449751948"
+                />
                 <Footer />
             </div>
         </Fragment>
