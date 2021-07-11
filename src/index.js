@@ -4,10 +4,12 @@ import './index.css';
 import App from './App';
 import Routes from './config/Routes';
 
+
 ReactDOM.render(
   <Routes>
     <React.StrictMode>
       <App />
+      
     </React.StrictMode>
   </Routes>
   ,
