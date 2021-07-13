@@ -19,8 +19,8 @@ function Layout(props) {
                     {props.children}
                 </main>
                 <MessengerCustomerChat
-                    pageId="106964274592662"
-                    appId="514524449751948"
+                    pageId="101668081798341"
+                    appId="235343194909371"
                 />
                 <Footer />
             </div>
