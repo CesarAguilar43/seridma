@@ -1,8 +1,35 @@
 .container-full{
     padding-right: 12vh;
-    padding-left: 12vh;  
+    padding-left: 12vh; 
+    padding-bottom:-50px; 
     background: #e9eaed;
 }
+
+.contact{
+    padding-top: 15px;
+}
+
+.App{
+    position: absolute;
+    float: left;
+}
+.App-messenger{
+    float: left;
+}
+.styles-module_whatsappChatBox__P75uz{
+    bottom: 12rem;
+}
+.styles-module_whatsappChatBox__P75uz.styles-module_open__2W1cE{
+    height: 272px;
+}
+.styles-module_chatBody__3SG9H .styles-module_accountName__2jFCW{
+    color: #f3270c;
+}
+.styles-module_floatingWhatsapp__1akvz{
+    width: 0;
+    height: 0;
+}
+
 
 @media only screen and (max-width: 1198px) {
 
