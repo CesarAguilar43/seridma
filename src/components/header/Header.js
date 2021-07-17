@@ -12,7 +12,7 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Navbar.Brand className="mr-auto">
-                        <Link exact={true} to="/">
+                        <Link to="/">
                             <Image src={logoHome} className="logoImg" alt="Seridma" />
                         </Link>
                     </Navbar.Brand>

@@ -14,10 +14,11 @@
     float: left;
 }
 .App-messenger{
-    float: left;
+    background-color: #f3270c;
 }
 .styles-module_whatsappChatBox__P75uz{
-    bottom: 12rem;
+    bottom: 11.6rem;
+    right: 1.6rem;
 }
 .styles-module_whatsappChatBox__P75uz.styles-module_open__2W1cE{
     height: 272px;
@@ -28,6 +29,13 @@
 .styles-module_floatingWhatsapp__1akvz{
     width: 0;
     height: 0;
+}
+.styles-module_chatHeader__23UA6 .styles-module_avatar__17BL2 img{
+    border-radius: 100%;
+}
+.styles-module_whatsappButton__IWx9V{
+    bottom: 1rem;
+    right: 1.6rem;
 }
 
 
